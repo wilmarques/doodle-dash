@@ -49,6 +49,8 @@ class Player extends SpriteGroupComponent<PlayerState>
     // Core gameplay: Add circle hitbox to Dash
 
     // Add a Player to the game: loadCharacterSprites
+    await _loadCharacterSprites();
+    current = PlayerState.center;
     // Add a Player to the game: Default Dash onLoad to center state
   }
 
