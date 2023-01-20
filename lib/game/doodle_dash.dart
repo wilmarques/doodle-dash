@@ -72,8 +72,6 @@ class DoodleDash extends FlameGame
 
     player.resetPosition();
 
-    // Add a Player to the game: Reset Dash's position back to the start
-
     objectManager = ObjectManager(
         minVerticalDistanceToNextPlatform: levelManager.minDistance,
         maxVerticalDistanceToNextPlatform: levelManager.maxDistance);
