@@ -118,7 +118,7 @@ class BrokenPlatform extends Platform<BrokenPlatformState> {
       BrokenPlatformState.cracked:
           await gameRef.loadSprite('game/platform_cracked_monitor.png'),
       BrokenPlatformState.broken:
-          await gameRef.loadSprite('game/platform__monitor_broken.png'),
+          await gameRef.loadSprite('game/platform_monitor_broken.png'),
     };
 
     current = BrokenPlatformState.cracked;
