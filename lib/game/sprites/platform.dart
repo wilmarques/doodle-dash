@@ -6,7 +6,6 @@ import 'dart:math';
 
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
-import 'package:flutter/cupertino.dart';
 
 import '../util/util.dart';
 import '../doodle_dash.dart';

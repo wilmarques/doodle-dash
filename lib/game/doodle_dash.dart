@@ -52,7 +52,7 @@ class DoodleDash extends FlameGame
       final Rect worldBounds = Rect.fromLTRB(
         0,
         camera.position.y - screenBufferSpace,
-        camera.position.x,
+        camera.gameSize.x,
         camera.position.y + _world.size.y,
       );
       camera.worldBounds = worldBounds;

@@ -204,7 +204,7 @@ class ObjectManager extends Component with HasGameRef<DoodleDash> {
     if (specialPlatforms['noogler'] == true &&
         probGen.generateWithProbability(20)) {
       var nooglerHat =
-          NoogleHat(position: Vector2(_generateNextX(75), _generateNextY()));
+          NooglerHat(position: Vector2(_generateNextX(75), _generateNextY()));
       add(nooglerHat);
       _powerups.add(nooglerHat);
     } else if (specialPlatforms['rocket'] == true &&

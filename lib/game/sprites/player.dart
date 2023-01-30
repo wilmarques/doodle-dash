@@ -108,7 +108,7 @@ class Player extends SpriteGroupComponent<PlayerState>
 
     if (isWearingHat) {
       current = PlayerState.nooglerLeft;
-    } else {
+    } else if (!hasPowerup) {
       current = PlayerState.left;
     }
 
@@ -120,7 +120,7 @@ class Player extends SpriteGroupComponent<PlayerState>
 
     if (isWearingHat) {
       current = PlayerState.nooglerRight;
-    } else {
+    } else if (!hasPowerup) {
       current = PlayerState.right;
     }
 
@@ -172,7 +172,7 @@ class Player extends SpriteGroupComponent<PlayerState>
         specialJumpSpeed: jumpSpeed * other.jumpSpeedMultiplier,
       );
       return;
-    } else if (!hasPowerup && other is NoogleHat) {
+    } else if (!hasPowerup && other is NooglerHat) {
       if (current == PlayerState.center) current = PlayerState.nooglerCenter;
       if (current == PlayerState.left) current = PlayerState.nooglerLeft;
       if (current == PlayerState.right) current = PlayerState.nooglerRight;

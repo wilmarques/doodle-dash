@@ -42,11 +42,11 @@ class Rocket extends PowerUp {
   }
 }
 
-class NoogleHat extends PowerUp {
+class NooglerHat extends PowerUp {
   @override
   double get jumpSpeedMultiplier => 2.5;
 
-  NoogleHat({super.position});
+  NooglerHat({super.position});
 
   final int activeLengthInMS = 5000;
 
