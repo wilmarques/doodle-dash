@@ -3,15 +3,23 @@
 // found in the LICENSE file.
 
 import 'package:flame/game.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import 'package:device_preview/device_preview.dart';
 
 import 'game/doodle_dash.dart';
 import 'game/util/util.dart';
 import 'game/widgets/widgets.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    DevicePreview(
+      enabled: !kReleaseMode,
+      builder: (context) => const MyApp(), // Wrap your app
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {

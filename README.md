@@ -6,5 +6,6 @@ Game created during Flutter Flame Codelab - <https://codelabs.developers.google.
 
 ## Roadmap
 
-- [ ] Enable Device Preview (<https://pub.dev/packages/device_preview>)
+- [x] Enable Device Preview (<https://pub.dev/packages/device_preview>)
+- [ ] Touch controls won't display when Device Preview is enabled
 - [ ] Deploy to Github Pages
