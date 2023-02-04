@@ -8,4 +8,5 @@ Game created during Flutter Flame Codelab - <https://codelabs.developers.google.
 
 - [x] Enable Device Preview (<https://pub.dev/packages/device_preview>)
 - [x] Touch controls won't display when Device Preview is enabled
-- [ ] Deploy to Github Pages
+- [x] Deploy to Github Pages
+- [ ] Config PWA manifest
