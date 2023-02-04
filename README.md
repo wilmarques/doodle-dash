@@ -8,5 +8,4 @@ Game created during Flutter Flame Codelab - <https://codelabs.developers.google.
 
 - [x] Enable Device Preview (<https://pub.dev/packages/device_preview>)
 - [x] Touch controls won't display when Device Preview is enabled
-- [ ] Keyboard input isn't working anymore
 - [ ] Deploy to Github Pages
