@@ -19,7 +19,7 @@ Game created during Flutter Flame Codelab - <https://codelabs.developers.google.
   - [x] Lock orientation - Portrait
   - [x] Icons
   - [x] Adaptive icons
-  - [ ] Offline support
-  - [ ] Splash screen (using: <https://github.com/elegantapp/pwa-asset-generator>)
+  - [x] Offline support
+  - [x] Splash screen (using: <https://github.com/elegantapp/pwa-asset-generator>)
+  - [x] Config for iOS
   - [ ] Previews image
-  - [ ] Config for iOS
