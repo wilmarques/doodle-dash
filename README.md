@@ -17,8 +17,9 @@ Game created during Flutter Flame Codelab - <https://codelabs.developers.google.
   - [x] Short name
   - [x] Start Url
   - [x] Lock orientation - Portrait
-  - [ ] Icon
-  - [ ] Adaptive icons
+  - [x] Icons
+  - [x] Adaptive icons
+  - [ ] Offline support
   - [ ] Splash screen (using: <https://github.com/elegantapp/pwa-asset-generator>)
   - [ ] Previews image
   - [ ] Config for iOS

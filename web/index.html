@@ -1,62 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!--
+  <head>
+
+    <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
-
     The path provided below has to start and end with a slash "/" in order for
     it to work correctly.
-
     For more details:
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="$FLUTTER_BASE_HREF">
+    <base href="$FLUTTER_BASE_HREF">
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="In Doodle Dash, you play as either Dash (the Flutter mascot), or her best friend Sparky (the Firebase mascot), and try to reach as high as possible by jumping on platforms.">
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="In Doodle Dash, you play as either Dash (the Flutter mascot), or her best friend Sparky (the Firebase mascot), and try to reach as high as possible by jumping on platforms.">
+    <!-- iOS meta tags & icons -->
+    <!-- <meta name="apple-mobile-web-app-capable" content="yes"> (removed due to: <https://web.dev/learn/pwa/enhancements/#installation-reliability>) -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#001c38">
+    <meta name="apple-mobile-web-app-title" content="doodle_dash">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-trans-lucent">
+    <meta name="theme-color" content="#001c38">
+    <link rel="apple-touch-startup-image" href="ios-startup.png">
+    <link rel="apple-touch-icon" href="apple-icon-180.png">
 
-  <!-- iOS meta tags & icons -->
-  <!-- <meta name="apple-mobile-web-app-capable" content="yes"> (removed due to: <https://web.dev/learn/pwa/enhancements/#installation-reliability>) -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="#001c38">
-  <meta name="apple-mobile-web-app-title" content="doodle_dash">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-  <link rel="apple-touch-startup-image" href="ios-startup.png">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-trans-lucent">
+    <!-- Windows meta tags & icons -->
+    <meta name="msapplication-square70x70logo" content="mstile-icon-128.png">
+    <meta name="msapplication-square150x150logo" content="mstile-icon-270.png">
+    <meta name="msapplication-square310x310logo" content="mstile-icon-558.png">
+    <meta name="msapplication-wide310x150logo" content="mstile-icon-558-270.png">
 
-  <meta name="theme-color" content="#001c38">
+    <!-- Favicon -->
+    <title>Doodle Dash</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" sizes="196x196" href="favicon-196.png">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+    <script>
+      // The value below is injected by flutter build, do not touch.
+      var serviceWorkerVersion = null;
+    </script>
 
-  <title>Doodle Dash</title>
-  <link rel="manifest" href="manifest.json">
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer=""></script>
 
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = null;
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
-</head>
-<body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        }
-      }).then(function(engineInitializer) {
-        return engineInitializer.initializeEngine();
-      }).then(function(appRunner) {
-        return appRunner.runApp();
+  </head>
+  <body>
+    <script>
+      window.addEventListener('load', function(ev) {
+        // Download main.dart.js
+        _flutter.loader.loadEntrypoint({
+          serviceWorker: {
+            serviceWorkerVersion: serviceWorkerVersion,
+          }
+        }).then(function(engineInitializer) {
+          return engineInitializer.initializeEngine();
+        }).then(function(appRunner) {
+          return appRunner.runApp();
+        });
       });
-    });
-  </script>
-</body>
+    </script>
+  </body>
 </html>
