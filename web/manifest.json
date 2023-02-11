@@ -1,12 +1,14 @@
 {
-    "name": "doodle_dash",
-    "short_name": "doodle_dash",
-    "start_url": ".",
+    "name": "Doodle Dash",
+    "short_name": "Doodle Dash",
+    "id": "/doodle-dash/",
+    "start_url": "/doodle-dash/",
+    "scope": "/doodle-dash/",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#001c38",
+    "theme_color": "#001c38",
+    "description": "In Doodle Dash, you play as either Dash (the Flutter mascot), or her best friend Sparky (the Firebase mascot), and try to reach as high as possible by jumping on platforms.",
+    "orientation": "portrait",
     "prefer_related_applications": false,
     "icons": [
         {

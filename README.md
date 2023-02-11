@@ -11,14 +11,14 @@ Game created during Flutter Flame Codelab - <https://codelabs.developers.google.
 - [x] Deploy to Github Pages
 - [x] Upgrade to Flutter 3.7
 - [ ] Config PWA manifest
-  - Icon
-  - App name
-  - Theme
-  - Description
-  - Short name
-  - Start Url
-  - Lock orientation - Portrait
-  - Adaptive icons
-  - Splash screen (using: <https://github.com/elegantapp/pwa-asset-generator>)
-  - Previews image
-  - Config for iOS
+  - [x] App name
+  - [x] Theme
+  - [x] Description
+  - [x] Short name
+  - [x] Start Url
+  - [x] Lock orientation - Portrait
+  - [ ] Icon
+  - [ ] Adaptive icons
+  - [ ] Splash screen (using: <https://github.com/elegantapp/pwa-asset-generator>)
+  - [ ] Previews image
+  - [ ] Config for iOS
