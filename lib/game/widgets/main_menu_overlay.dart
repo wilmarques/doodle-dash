@@ -52,11 +52,17 @@ class _MainMenuOverlayState extends State<MainMenuOverlay> {
                     ),
                     textAlign: TextAlign.center,
                   ),
+                  Text(
+                    'by Wiley Marques',
+                    textAlign: TextAlign.center,
+                  ),
                   const WhiteSpace(),
                   Align(
                     alignment: Alignment.center,
-                    child: Text('Select your character:',
-                        style: Theme.of(context).textTheme.headlineSmall!),
+                    child: Text(
+                      'Select your character:',
+                      style: Theme.of(context).textTheme.headlineSmall!,
+                    ),
                   ),
                   if (!screenHeightIsSmall) const WhiteSpace(height: 30),
                   Row(
@@ -177,7 +183,7 @@ class CharacterButton extends StatelessWidget {
           : null,
       onPressed: onSelectChar,
       child: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(15),
         child: Column(
           children: [
             Image.asset(
