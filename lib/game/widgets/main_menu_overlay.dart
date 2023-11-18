@@ -66,7 +66,7 @@ class _MainMenuOverlayState extends State<MainMenuOverlay> {
                   ),
                   if (!screenHeightIsSmall) const WhiteSpace(height: 30),
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       CharacterButton(
                         character: Character.dash,
